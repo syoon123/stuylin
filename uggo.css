@@ -1,0 +1,33 @@
+body {
+    background-color: yellow;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+    color: red;
+    font-size: 15px;
+}
+
+h2 {
+    color: orange;
+    font-size: 1em;
+}
+
+h3 {
+    color: blue;
+    font-size: 1em;
+}
+
+a {
+    color: green;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+p {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
