@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+body {
+    background-color: white;
+    margin: 5%;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+#prose {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.box {
+    float: left;
+    position: relative;
+    background-color: white;
+    width: 33%;
+    padding-bottom: 33%;
+}
+
+#a {
+    background-color: #FC7753;
+}
+
+#b {
+    background-color: #66D7D1;
+}
+
+#c {
+    background-color: #8B8982;
+}
+
+#d {
+    background-color: #DBD56E;
+}
+
+#e {
+    background-color: #C49799;
+}
+
+#f {
+    background-color: #38686A;
+}
+
+.tile {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    text-align: center;
+    opacity: 0.75;
+    color: #210124;
+    transform: perspective(1px) translate(0);
+    transition-duration: 0.3s;
+    transition-property: opacity;
+}
+
+.tile:hover, .tile:focus {
+		 opacity:1;
+	     }
+
+			      
+
+.linktext {
+    font-family: 'Roboto Slab', serif;
+    font-size: 4vw;
+    position: relative;
+    margin: auto;
+    padding-top: 30%;
+}
